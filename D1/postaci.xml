@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- 
+<Postacie>
+<Jelonek>Bambi</Jelonek>
+<Lew>Simba</Lew> 
+<Surykatka>Timon</Surykatka> 
+<Pies>Reksio</Pies> 
+</Postacie>
+ --> 
+
+<rodzina> 
+    <ludzie>
+        <ja>
+<imie wiek ="16">Wojtek</imie>
+    <nazwisko>Witek</nazwisko> 
+    <miasto>Warszawa</miasto>
+    </ja>
+        <brat>
+    <imie>Jarek</imie>
+        <nazwisko>Witek</nazwisko>nazwisko> 
+        <wiek>27</wiek>
+        <miasto>Warszawa</miasto>
+    </brat>
+        <tate>
+      <imie>Zenon</imie>
+        <nawisko>Witek</nawisko>
+        <wiek>10000</wiek>
+          <miasti>Warszawa</miasti>
+        </tate>
+    </ludzie>
+        <nieludzie>
+    <koty>
+        <imie>klara</imie>
+        <kolor>szary</kolor>
+        </koty>
+    <psy>
+         <imie>burek</imie>
+         <kolor></kolor>
+        </psy>
+    
+    </nieludzie>
+</rodzina>
