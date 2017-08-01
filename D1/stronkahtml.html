@@ -1,0 +1,49 @@
+<!doctype html>
+<html> 
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <title>strona testowa</title>
+    </head>
+<body>
+    
+   <h2>Zarazerwuj bilet</h2>
+    <form action='#' method="post">
+        <p>Imie:   <input name='imie' type='text'/>, Nazwisko: <input nazwisko='formname' type='text'/>
+            <p>Wylot z:
+                <select name='wylot_z:'> 
+                <option> -wybierz- </option>
+                <option>Warszawa</option>
+                <option>Krakow</option>
+                <option>Rzeszow</option>
+                <option>Radom</option>
+                </select> 
+            </p>
+        
+            <p>Przylot do: 
+                <select name='przulot_do'>
+                <option> -wybierz- </option>
+                <option>Rzym</option>
+                <option>Moskwa</option>   
+                </select>
+            </p>    
+        
+        <p>Miesjce VIP: <br>
+            tak<input name='miejsce_vip' type='radio' value=tak><br>
+            nie<input name='miejsce_vip' type='radio' value=nie>
+        </p>
+        <p>Dodatkowe opcje: <br>
+            Posiłek gorący<input name="gorący_posilek" type='checkbox'><br>
+            Deser<input name='deser' type='checkbox'>
+        </p>
+        <p>Uwagi: <br><textarea></textarea>
+        </p>
+    <!--  <input type = 'submit' vaue='ok'/> -->
+    <!--<button type="reset">Wyczyść</button> -->
+        <input type="reset" value="wyczyść"> 
+    <!--  <button type="submit">Wyślij</button> -->
+        <input type="submit" value="wyślij"> 
+        
+    </form>
+    </body>
+
+</html>
